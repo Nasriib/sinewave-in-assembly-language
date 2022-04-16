@@ -108,7 +108,7 @@ main:
         cltq
         movq    -160080(%rbp,%rax,8), %rdx
         movq    -56(%rbp), %rax
- movq    %rdx, %xmm0
+        movq    %rdx, %xmm0
         movl    $.LC12, %esi
         movq    %rax, %rdi
         movl    $1, %eax
